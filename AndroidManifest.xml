@@ -20,6 +20,25 @@
             android:name=".LoginDisplayActivity"
             android:label="@string/title_activity_login_display" />
         <activity
+            android:name=".Question1"
+            android:label="Question1" />
+        <activity
+            android:name=".Question2"
+            android:label="Question2" />
+        <activity
+            android:name=".Question3"
+            android:label="Question3" />
+        <activity
+            android:name=".Question4"
+            android:label="Question4" />
+        <activity
+            android:name=".Question5"
+            android:label="Question5" />
+        <activity
+            android:name=".Resultat"
+            android:label="Resultat" />
+
+        <activity
             android:name=".CreateLogin"
             android:label="CreateLogin" />
     </application>

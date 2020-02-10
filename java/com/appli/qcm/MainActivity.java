@@ -51,10 +51,7 @@ public class MainActivity extends AppCompatActivity {
                             Toast.LENGTH_SHORT).show();
                     return;
                 }
-                Intent intent = new Intent(MainActivity.this,
-                        LoginDisplayActivity.class);
-                intent.putExtra(EXTRA_LOGIN, loginTxt);
-                intent.putExtra(EXTRA_PASSWORD, passTxt);
+                Intent intent = new Intent(MainActivity.this, Question1.class);
                 startActivity(intent);
             }
         });
